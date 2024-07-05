@@ -2,44 +2,44 @@
   "name": "better-oceanic-next",
   "displayName": "Better Oceanic Next",
   "description": "Better Oceanic Next vscode theme based on Dainty – Oceanic Next",
-  "version": "1.0.0",
-	"publisher": "SeyMi",
-	"engines": {
-		"vscode": "^1.19.0"
-	},
+  "version": "1.1.0",
+  "publisher": "SeyMi",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
   "author": {
     "name": "SeyMi"
   },
   "homepage": "",
-	"categories": [
-		"Themes"
-	],
-	"icon": "images/icon.png",
-	"contributes": {
-		"themes": [
-			{
-				"label": "Better Oceanic Next",
-				"uiTheme": "vs-dark",
-				"path": "./themes/better-oceanic-next.json"
-			}
-		]
-	},
-	"keywords": [
-		"better oceanic next",
-		"dark",
-		"oceanic",
-		"next",
-		"theme"
-	],
-	"license": "MIT",
-	"maintainers": [
-		"SeyMi"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Hasan-Mir/better-oceanic-next"
-	}, 
-	"bugs": {
-		"url": "https://github.com/Hasan-Mir/better-oceanic-next/issues"
-	}
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Better Oceanic Next",
+        "uiTheme": "vs-dark",
+        "path": "./themes/better-oceanic-next.json"
+      }
+    ]
+  },
+  "keywords": [
+    "better oceanic next",
+    "dark",
+    "oceanic",
+    "next",
+    "theme"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    "SeyMi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hasan-Mir/better-oceanic-next"
+  },
+  "bugs": {
+    "url": "https://github.com/Hasan-Mir/better-oceanic-next/issues"
+  }
 }
