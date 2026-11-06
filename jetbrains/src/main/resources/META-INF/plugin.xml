@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>com.seymi.better-oceanic-next</id>
+  <name>Better Oceanic Next</name>
+  <vendor url="https://github.com/Hasan-Mir/better-oceanic-next">SeyMi</vendor>
+
+  <description><![CDATA[
+    <p><b>Better Oceanic Next</b> — a dark theme for JetBrains IDEs, ported from the
+    <a href="https://github.com/Hasan-Mir/better-oceanic-next">Better Oceanic Next</a> VS Code theme
+    (based on Dainty&nbsp;– Oceanic Next).</p>
+    <p>Includes the full UI theme and a matching editor color scheme. Select it under
+    <b>Settings | Appearance &amp; Behavior | Appearance | Theme</b>. The editor colors are also
+    available standalone under <b>Settings | Editor | Color Scheme</b>.</p>
+  ]]></description>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.seymi.better-oceanic-next.dark" path="/themes/BetterOceanicNext.theme.json"/>
+    <bundledColorScheme id="Better Oceanic Next" path="/themes/BetterOceanicNext"/>
+  </extensions>
+</idea-plugin>
