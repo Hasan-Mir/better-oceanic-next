@@ -8,8 +8,6 @@ All notable changes to the "better-oceanic-next" extension will be documented in
 
 - **JetBrains Plugin:** Ported the theme to JetBrains IDEs as a plugin under [`jetbrains/`](jetbrains/) — full UI theme plus matching editor color scheme (see [jetbrains/CHANGELOG.md](jetbrains/CHANGELOG.md)).
 
-## [1.2.1] - 2026-10-25
-
 ### Changed
 
 - **Staged Changes Gutter:** Added explicit, more vivid colors for staged lines in the editor gutter so they stay clearly visible (`editorGutter.modifiedSecondaryBackground`, `editorGutter.addedSecondaryBackground`, `editorGutter.deletedSecondaryBackground`).

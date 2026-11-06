@@ -8,14 +8,21 @@ It bundles both a full **UI theme** and a matching **editor color scheme**.
 
 ## Build
 
-Requires JDK 17+ (and nothing else — Gradle itself is fetched by the wrapper):
+From the repo root (mirrors the VS Code `npm run package` workflow; picks a JDK 17+
+automatically — Gradle 9 cannot run on older JVMs like a Java 11 `JAVA_HOME`):
+
+```bash
+npm run package:jetbrains
+```
+
+Or directly (requires JDK 17+ on `JAVA_HOME` — Gradle itself is fetched by the wrapper):
 
 ```bash
 cd jetbrains
 ./gradlew buildPlugin
 ```
 
-The distributable lands in `build/distributions/better-oceanic-next-jetbrains-<version>.zip`.
+The distributable lands in `jetbrains/build/distributions/better-oceanic-next-jetbrains-<version>.zip`.
 
 The first build downloads the IntelliJ Platform (~700 MB) into the Gradle cache, since it is
 needed for running/verifying the plugin. The plugin itself is resources-only — there is no

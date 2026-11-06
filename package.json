@@ -43,7 +43,8 @@
     "url": "https://github.com/Hasan-Mir/better-oceanic-next/issues"
   },
   "scripts": {
-    "package": "vsce package"
+    "package": "vsce package",
+    "package:jetbrains": "node scripts/package-jetbrains.mjs"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.x"
