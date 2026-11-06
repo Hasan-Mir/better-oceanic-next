@@ -2,7 +2,7 @@
   "name": "better-oceanic-next",
   "displayName": "Better Oceanic Next",
   "description": "Better Oceanic Next vscode theme based on Dainty – Oceanic Next",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publisher": "SeyMi",
   "engines": {
     "vscode": "^1.85.0"
