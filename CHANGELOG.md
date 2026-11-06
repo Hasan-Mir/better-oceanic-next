@@ -2,6 +2,14 @@
 
 All notable changes to the "better-oceanic-next" extension will be documented in this file.
 
+## [1.2.1] - 2026-10-25
+
+### Changed
+
+- **Staged Changes Gutter:** Added explicit, more vivid colors for staged lines in the editor gutter so they stay clearly visible (`editorGutter.modifiedSecondaryBackground`, `editorGutter.addedSecondaryBackground`, `editorGutter.deletedSecondaryBackground`).
+
+---
+
 ## [1.2.0] - 2026-08-27
 
 ### Changed
