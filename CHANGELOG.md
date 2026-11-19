@@ -2,6 +2,14 @@
 
 All notable changes to the "better-oceanic-next" extension will be documented in this file.
 
+## [1.2.2] - 2026-11-20
+
+### Fixed
+
+- **Merge Editor Colors:** Aligned addition (`mergeEditor.change.*`) and deletion / base (`mergeEditor.changeBase.*`) colors in VS Code's 3-way merge conflict resolver with the diff viewer (`diffEditor.*`), replacing the default muted olive-green highlight with consistent vivid diff colors. Also added matching border styling for handled conflicts (`mergeEditor.conflict.handled*`).
+
+---
+
 ## [1.2.1] - 2026-10-25
 
 ### Added
