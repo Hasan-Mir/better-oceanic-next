@@ -1,0 +1,7 @@
+.github/**
+.vscode/**
+.zcode/**
+jetbrains/**
+scripts/**
+**/*.vsix
+**/*.log
