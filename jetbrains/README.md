@@ -79,7 +79,7 @@ certificate following the [Marketplace signing instructions](https://plugins.jet
 
 - The editor color scheme XML does not support alpha, so every translucent VS Code color
   (`#rrggbbaa`) is pre-blended against the surface it is drawn on (`#262a30` for editor
-  surfaces). The UI theme JSON keeps the original alpha values as-is.
+  surfaces). The UI theme JSON and editor scrollbar keys use 8-digit RGBA where supported, with opaque pre-blended equivalents where required.
 - Git gutter colors use the vivid set from the VS Code theme (`#32e86c` / `#2478ff` /
   `#e83232`). JetBrains draws *staged* lines as hollow outlines in the same color, which the
   vivid values keep readable.

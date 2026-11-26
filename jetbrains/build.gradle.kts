@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.seymi"
-version = "1.2.2"
+version = "1.2.3"
 
 repositories {
     mavenCentral()
@@ -19,6 +19,14 @@ intellijPlatform {
             sinceBuild = "233"
             untilBuild = provider { null }
         }
+        changeNotes = """
+            <h3>1.2.3</h3>
+            <ul>
+                <li>Full TypeScript, JavaScript, JSX/TSX, React, Java, Kotlin, Python, Go, Rust, CSS/SCSS, HTML, JSON, YAML, and Markdown semantic syntax parity with VS Code.</li>
+                <li>Fixed Git file status colors (moved FILESTATUS_* to &lt;colors&gt;) and corrected INDENT_GUIDE, VISUAL_INDENT_GUIDE, WHITESPACES, and EFFECT_TYPE mappings.</li>
+                <li>Added subtle Oceanic Next FileColor scopes, editor/UI overlay scrollbar parity, non-default Button surfaces, and Notification.ToolWindow.informativeBackground fix.</li>
+            </ul>
+        """.trimIndent()
     }
     publishing {
         token = providers.environmentVariable("PUBLISH_TOKEN")
