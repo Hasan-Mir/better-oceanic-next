@@ -3,5 +3,7 @@
 .zcode/**
 jetbrains/**
 scripts/**
+images/banner.jpg
+images/preview-*.png
 **/*.vsix
 **/*.log
