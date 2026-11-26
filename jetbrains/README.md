@@ -1,10 +1,23 @@
-# Better Oceanic Next — JetBrains plugin
+![Better Oceanic Next for JetBrains IDEs](images/banner.jpg)
+
+# Better Oceanic Next — JetBrains Plugin
 
 The **Better Oceanic Next** theme (Dainty – Oceanic Next port) packaged as a plugin for
 IntelliJ-based IDEs: IntelliJ IDEA, WebStorm, PhpStorm, DataGrip, PyCharm, GoLand, CLion,
 Android Studio, Rider, RubyMine… (2023.3 and later).
 
-It bundles both a full **UI theme** and a matching **editor color scheme**.
+It bundles both a full **UI theme** and a matching **editor color scheme** with full semantic syntax parity with the [VS Code extension](../README.md).
+
+## Install
+
+### From JetBrains Marketplace
+
+In your IDE: **Settings | Plugins | Marketplace**, search for **Better Oceanic Next**, install, and restart. Then select **Settings | Appearance & Behavior | Appearance | Theme | Better Oceanic Next**.
+
+### From disk
+
+In your IDE: **Settings | Plugins | ⚙ | Install Plugin from Disk…**, pick the built zip,
+restart, then choose **Settings | Appearance & Behavior | Appearance | Theme | Better Oceanic Next**.
 
 ## Build
 
@@ -27,11 +40,6 @@ The distributable lands in `jetbrains/build/distributions/better-oceanic-next-je
 The first build downloads the IntelliJ Platform (~700 MB) into the Gradle cache, since it is
 needed for running/verifying the plugin. The plugin itself is resources-only — there is no
 Java/Kotlin code.
-
-## Install (from disk)
-
-In your IDE: **Settings | Plugins | ⚙ | Install Plugin from Disk…**, pick the built zip,
-restart, then choose **Settings | Appearance & Behavior | Appearance | Theme | Better Oceanic Next**.
 
 ## Preview while developing
 

@@ -3,6 +3,13 @@
 All notable changes to the "better-oceanic-next-jetbrains" plugin will be documented in this file.
 Versions generally track the VS Code extension the theme is ported from, with independent patch bumps for JetBrains-specific fixes.
 
+## [1.3.0] - 2026-11-26
+
+- Updated `jetbrains/README.md` with banner artwork and Marketplace installation instructions.
+- Version bump to stay in sync with the VS Code extension (`1.3.0`).
+
+---
+
 ## [1.2.3] - 2026-11-23
 
 - Added missing TypeScript and JavaScript semantic highlighting keys (`TS.TYPE_ALIAS`,

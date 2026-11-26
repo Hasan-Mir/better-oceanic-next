@@ -2,6 +2,15 @@
 
 All notable changes to the "better-oceanic-next" extension will be documented in this file.
 
+## [1.3.0] - 2026-11-26
+
+### Changed
+
+- **Documentation:** Updated `README.md` with banner artwork, feature highlights, and fixed installation steps.
+- **Version Sync:** Bumped both VS Code extension and JetBrains plugin to `1.3.0`.
+
+---
+
 ## [1.2.2] - 2026-11-20
 
 ### Fixed
