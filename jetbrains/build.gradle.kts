@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.seymi"
-version = "1.3.0"
+version = "1.3.1"
 
 repositories {
     mavenCentral()
@@ -20,6 +20,10 @@ intellijPlatform {
             untilBuild = provider { null }
         }
         changeNotes = """
+            <h3>1.3.1</h3>
+            <ul>
+                <li>Synced version with the VS Code extension at 1.3.1.</li>
+            </ul>
             <h3>1.3.0</h3>
             <ul>
                 <li>Updated plugin README with banner artwork and Marketplace installation instructions.</li>

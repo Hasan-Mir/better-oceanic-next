@@ -2,6 +2,15 @@
 
 All notable changes to the "better-oceanic-next" extension will be documented in this file.
 
+## [1.3.1] - 2026-11-26
+
+### Fixed
+
+- **Workbench & TreeView Checkboxes:** Added explicit `checkbox.background`, `checkbox.border`, `checkbox.foreground`, `checkbox.selectBackground`, and `checkbox.selectBorder` colors matching `settings.checkbox*` (`#282c34ff` / `#606368ff` / `#efefefff`) so checkboxes in TreeViews and sidebars stay clearly visible instead of blending into `sideBar.background`.
+- **Version Sync:** Bumped both VS Code extension and JetBrains plugin to `1.3.1`.
+
+---
+
 ## [1.3.0] - 2026-11-26
 
 ### Changed
