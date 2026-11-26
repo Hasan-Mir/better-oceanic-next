@@ -8,6 +8,20 @@ Android Studio, Rider, RubyMine… (2023.3 and later).
 
 It bundles both a full **UI theme** and a matching **editor color scheme** with full semantic syntax parity with the [VS Code extension](../README.md).
 
+## Preview
+
+### TypeScript & React Hooks
+
+![TypeScript & React Hooks Preview](images/preview-typescript.png)
+
+### JSX / TSX Markup
+
+![JSX / TSX Markup Preview](images/preview-jsx.png)
+
+### Rust
+
+![Rust Preview](images/preview-rust.png)
+
 ## Install
 
 ### From JetBrains Marketplace

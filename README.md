@@ -10,6 +10,20 @@ A dark Visual Studio Code theme based on **Dainty – Oceanic Next**, featuring 
 - **Vivid Git & Diff Highlights:** High-visibility Git gutter indicators (including staged changes), distinct diff line backgrounds, and consistent 3-way merge editor colors.
 - **Improved Search & Navigation:** High-contrast find/search match highlights, bordered word highlights, and a clean top-border active tab indicator.
 
+## Preview
+
+### TypeScript & React Hooks
+
+![TypeScript & React Hooks Preview](images/preview-typescript.png)
+
+### JSX / TSX Markup
+
+![JSX / TSX Markup Preview](images/preview-jsx.png)
+
+### Rust
+
+![Rust Preview](images/preview-rust.png)
+
 ## Installation
 
 1. Open **Extensions** on the sidebar (`Ctrl+Shift+X` / `⌘⇧X`)
